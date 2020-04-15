@@ -1,0 +1,23 @@
+*{
+	box-sizing: border-box;
+}
+
+.heading{
+	text-align: center;
+}
+
+.content{
+	margin: 0 20px; 
+}
+
+.wrapper{
+	margin: 0 20px;
+}
+
+.col-sm-4{
+	background-color: dimgray;
+}
+
+ul {
+	text-align: center;
+}
