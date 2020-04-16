@@ -1,23 +1,42 @@
-*{
-	box-sizing: border-box;
+body{
+	font-size: 16px;
+	color: black;
 }
 
-.heading{
-	text-align: center;
-}
-
-.content{
-	margin: 0 20px; 
-}
-
-.wrapper{
-	margin: 0 20px;
-}
-
-.col-sm-4{
+/* Header */
+#header-nav{
 	background-color: dimgray;
+	border-radius: 0;
+	border: 0;
+}
+ 
+ .navbar-brand{
+ 	padding-top: 25px;
+ }
+
+.navbar-brand h1{
+	font-family: Arial;
+	color: black;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 0;
+
 }
 
-ul {
+.num {
+	background-color: dimgray;
+	padding: 0 25px;
+	margin-bottom: 25px;
+}
+.num h3 {
+	font-weight: bold;
 	text-align: center;
+}
+.menu {
+	margin-bottom: 20px;
+}
+.menu h2{
+	text-align: center;
+	font-weight: bold;
 }
