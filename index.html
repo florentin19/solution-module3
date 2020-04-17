@@ -5,42 +5,36 @@
 	<meta http-equiv="X-UA-compatible" content="IE=edge">
 	<meta name="viewpoint" content="width=device-width,initial-scale=1">
 	<title>module3-solution</title>
-	<link rel="stylesheet" href="css/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/styles.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="css/styles.css"/>
+
 </head>
 <body>
   <header>
-    <nav id="header-nav" class="navbar navbar-default" >
-      <div class="container">
-        
-      </div>
-    <div class="navbar-brand pull-left">
-          <h1 class="pull-left"> Food, LLC</h1>
-    </div>
-
-      
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <div id="collapsable-nav" class="collapse navbar-collapse">
-        <ul id="nav-list" class="nav navbar-nav navbar-right">
-          <li>
-            <a href="#Chicken">
-              <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> Chicken</a>
-          </li>
-          <li>
-            <a href="#Beef">
-              <span class="glyphicon glyphicon-certiificate"></span><br class="hidden-xs">Beef</a>
-          </li>
-          <li>
-            <a href="#Sushi">
-              <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">Sushi</a>
-          </li>
-        
+    <nav class="navbar navbar-inverse displayID">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <p class="navbar-brand">Food, LLC</p>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+    
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#chicken">Chicken</a></li>
+            <li><a href="#beef">Beef</a></li>
+            <li><a href="#sushi">Sushi</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
+      
 
   </header>
 
@@ -51,26 +45,35 @@
       </div>
       <div class="col-md-4 col-sm-6 col-xs-12">
         <div class="col-xs-12 num">
-          <h3>Chicken</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolre magna aliqua. Ut eniem ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehendent in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolre magna aliqua. Ut eniem ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehendent in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h3 id="chicken">Chicken</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolre magna aliqua. 
+             Ut eniem ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+             Duis aute irure dolor in reprehendent in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 col-xs-12">
         <div class="col-xs-12 num">
-          <h3>Beef</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolre magna aliqua. Ut eniem ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehendent in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolre magna aliqua. Ut eniem ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehendent in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h3 id="beef">Beef</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolre magna aliqua.
+             Ut eniem ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+             Duis aute irure dolor in reprehendent in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+             <a class="go-to-top" href="">Go to top</a>
+            </p>
         </div>
       </div>
       <div class="col-md-4 col-sm-12 col-xs-12">
         <div class="col-xs-12 num">
-          <h3>Sushi</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolre magna aliqua. Ut eniem ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehendent in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolre magna aliqua. Ut eniem ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehendent in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h3 id="sushi">Sushi</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolre magna aliqua. 
+             Ut eniem ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+             Duis aute irure dolor in reprehendent in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
       </div>
     </div>
   </div>
 </body>
-  <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </html>

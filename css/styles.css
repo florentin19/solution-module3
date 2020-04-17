@@ -40,3 +40,38 @@ body{
 	text-align: center;
 	font-weight: bold;
 }
+
+.navbar-brand p span{
+	vertical-align: middle;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color: black;
+	text-align: center; 
+}
+
+#nav-list a span{
+	font-size: 1.8em;
+}
+.displayID  {
+	background-color: dimgray;
+}
+.displayID ul {
+	display: none;
+}
+.go-to-top{
+	display: none;
+}
+
+@media screen and (max-width:766px) {
+	.displayID ul{
+		display: initial;
+		text-align: center;
+	}
+	.go-to-top{
+		display: initial;
+	}
+
+}
